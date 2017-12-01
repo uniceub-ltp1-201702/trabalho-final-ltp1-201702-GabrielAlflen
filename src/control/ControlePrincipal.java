@@ -58,25 +58,27 @@ public class ControlePrincipal {
 			case "2": this.ccm.cadastrarMusica();
 			break;
 			
-			case "3": this.cea.excluirArtista();
+			case "3": this.cmpa.mostrarMusicaPorArtista();
 			break;
 			
-			case "4": this.cem.excluirMusica();
+			case "4": this.cmpn.musicaPorNome();
 			break;
 			
-			case "5": this.cmpa.mostrarMusicaPorArtista();
+			case "5":this.cmpl.motraMusicaPorLetra();
 			break;
 			
-			case "6": this.cmpn.musicaPorNome();
+			case "6": this.cea.excluirArtista();
 			break;
 			
-			case "7":this.cmpl.motraMusicaPorLetra();
+			case "7": this.cem.excluirMusica();
 			break;
 			
-			case "8": JOptionPane.showMessageDialog(null, "Até logo");
+
+			
+			case "8": JOptionPane.showMessageDialog(null, "Volte sempre!");
 			return;
 			
-			default: JOptionPane.showMessageDialog(null, "Favor digitar valor valido!!");
+			default: JOptionPane.showMessageDialog(null, "valor incorreto!");
 			break;
 			}
 			//Exibir a janela de opções

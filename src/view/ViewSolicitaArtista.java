@@ -19,7 +19,7 @@ public class ViewSolicitaArtista {
 		//Obter nome do artista
 		this.setArtista(JOptionPane.showInputDialog("Informe o nome do artista: "));
 		if (artista == null) {
-			JOptionPane.showMessageDialog(null, "Cancelando....");
+			JOptionPane.showMessageDialog(null, "Cancelado..");
 			
 		}
 	}

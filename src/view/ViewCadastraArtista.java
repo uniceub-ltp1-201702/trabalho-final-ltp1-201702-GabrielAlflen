@@ -35,17 +35,17 @@ public class ViewCadastraArtista {
 		//Obter dados do artista
 		this.setNome(JOptionPane.showInputDialog("Informe o nome do Artista: "));
 		if (nome==null) {
-			JOptionPane.showMessageDialog(null, "Cancelando...");
+			JOptionPane.showMessageDialog(null, "Cancelado.");
 			return;
 		}
 		this.setCPF(JOptionPane.showInputDialog("Informe o CPF: "));
 		if (CPF==null) {
-			JOptionPane.showMessageDialog(null, "Cancelando...");
+			JOptionPane.showMessageDialog(null, "Cancelado.");
 			return;
 	}
 		this.setIdade(JOptionPane.showInputDialog("Informe a idade do artista: "));
 		if (idade==null) {
-			JOptionPane.showMessageDialog(null, "Cancelando...");
+			JOptionPane.showMessageDialog(null, "Cancelado.");
 			return;	
 		}
 	}

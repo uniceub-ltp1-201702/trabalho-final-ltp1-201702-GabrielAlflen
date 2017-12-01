@@ -13,11 +13,11 @@ public class ViewPrincipal {
 				"Escolha uma opção:\n" + 
 				"1 - Cadastrar Artista\n" +
 				"2 - Cadastrar Musica\n" +	
-				"3 - Excluir Artista\n" +
-				"4 - Excluir Musica\n" +
-				"5 - Musicas de um determinado artista\n" +
-				"6 - Buscar musica\n" +
-				"7 - Buscar musica por letra\n" +
+				"3 - Musicas de um determinado artista\n" +
+				"4 - Buscar musica\n" +
+				"5 - Buscar musica por letra\n" +
+				"6 - Excluir Artista\n" +
+				"7 - Excluir Musica\n" +
 				"8 - Sair");
 		
 		return this.opcao;

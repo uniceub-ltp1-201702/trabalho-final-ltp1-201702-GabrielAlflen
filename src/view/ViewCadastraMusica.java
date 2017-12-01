@@ -35,17 +35,17 @@ public class ViewCadastraMusica {
 		//Obter dados da musica
 		this.setFaixa(JOptionPane.showInputDialog("Informe a faixa da musica: "));
 		if (faixa==null) {
-			JOptionPane.showMessageDialog(null, "Cancelando...");
+			JOptionPane.showMessageDialog(null, "Cancelado.");
 			return;
 	}
 		this.setNome(JOptionPane.showInputDialog("Informe o nome da musica: "));
 		if (nome==null) {
-			JOptionPane.showMessageDialog(null, "Cancelando...");
+			JOptionPane.showMessageDialog(null, "Cancelado.");
 			return;
 		}
 		this.setArtista(JOptionPane.showInputDialog("Informe o nome do artista: "));
 		if (artista==null) {
-			JOptionPane.showMessageDialog(null, "Cancelando...");
+			JOptionPane.showMessageDialog(null, "Cancelado.");
 			return;
 		}
 	}
